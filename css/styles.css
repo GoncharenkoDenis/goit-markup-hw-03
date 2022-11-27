@@ -47,6 +47,10 @@ html{
 *::after{
     box-sizing: inherit;
 }
+/* Чим ми займаємося */
+.job.section{
+    padding-top: 0;
+}
 /*Container*/
 .container{
 width: 1200px;
@@ -173,10 +177,6 @@ letter-spacing: 0.02em;
 }
 .hero-button{
     background-color:var(--accent-color);
-}
-/* Чим ми займаємося */
-.job{
-    padding-top: 0;
 }
 /* Section */
 .team{
