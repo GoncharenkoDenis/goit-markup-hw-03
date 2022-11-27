@@ -17,6 +17,7 @@
     --second-bg-color:#F5F4FA;
 }
 ul{
+    padding: 0;
     margin-left: auto;
     margin-top: 0;
     margin-bottom: 0;
@@ -123,9 +124,6 @@ letter-spacing: 0.02em;
 .site-nav .link.current{
     color: var(--accent-color);
 }
-/* .contact{
-    justify-content: flex-end;
-} */
 .contact .contact-list {
     text-decoration: none;
     font-weight: 500;
@@ -133,6 +131,7 @@ line-height: 1.1;
 letter-spacing: 0.02em;
 }
 .contact{
+    margin-left: auto;
     display: flex;
     list-style: none;
 }
@@ -174,6 +173,10 @@ letter-spacing: 0.02em;
 }
 .hero-button{
     background-color:var(--accent-color);
+}
+/* Чим ми займаємося */
+.job{
+    padding-top: 0;
 }
 /* Section */
 .team{
@@ -319,7 +322,9 @@ line-height: 1.19;
 margin-bottom: 9px;
 list-style: none;
 }
-
+.adres-list{
+    padding: 0%;
+}
 /* button */
 .button{
     color: var(--title-text-color);
